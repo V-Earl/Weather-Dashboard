@@ -17,5 +17,4 @@ This project was created using:
 *CSS
 *jQuery
 *Javascript
-*Moment.js
 
