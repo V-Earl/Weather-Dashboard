@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Project: Weather Dashboard</title>
+</head>
+<body>
+
+        <form class="form-inline">
+            <h1 id="background">Weather Dashboard</h1>
+            <label class="sr-only" for="txtLocation">Name</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="txtLocation" placeholder="City">
+        
+            <button type="submit" id="submit" class="btn btn-primary mb-2">Search</button>
+        </form>
+    
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h1 class="display-4">City (Date)</h1>
+        <p class="lead temp">Temperature:</p>
+        <p class="lead humid">Humidity:</p>
+        <p class="lead wind">Wind Speed:</p>
+        <p class="lead uv-index">UV Index:</p>
+        </div>
+    </div>
+
+
+
+    <h5>5-Day Forecast:</h5>
+
+    <div class="row row-cols-1 row-cols-md-5 forecast">
+        <div class="col mb-4">
+        <div class="card h-100">
+            <!-- <img src="image1" class="card-img-top" alt="image"> -->
+            <div class="card-body">
+            <h5 class="card-title">Date:</h5>
+            <p class="card-text Temperature">Temp:</p>
+            <p class="card-text Humidity">Humidity:</p>
+            </div>
+        </div>
+        </div>
+        <div class="col mb-4">
+        <div class="card h-100">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+                <h5 class="card-title2">Date:</h5>
+                <p class="card-text Temperature2">Temp:</p>
+                <p class="card-text Humidity2">Humidity:</p>
+            </div>
+        </div>
+        </div>
+        <div class="col mb-4">
+        <div class="card h-100">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+                <h5 class="card-title3">Date:</h5>
+                <p class="card-text Temperature3">Temp:</p>
+                <p class="card-text Humidity3">Humidity:</p>
+            </div>
+        </div>
+        </div>
+        <div class="col mb-4">
+        <div class="card h-100">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+                <h5 class="card-title4">Date:</h5>
+                <p class="card-text Temperature4">Temp:</p>
+                <p class="card-text Humidity4">Humidity:</p>
+            </div>
+        </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+                <h5 class="card-title5">Date:</h5>
+            <p class="card-text Temperature5">Temp:</p>
+            <p class="card-text Humidity5">Humidity:</p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
