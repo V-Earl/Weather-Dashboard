@@ -18,3 +18,6 @@ This project was created using:
 *jQuery
 *Javascript
 
+https://v-earl.github.io/Weather-Dashboard/
+
+![image](https://user-images.githubusercontent.com/57978129/75040611-97f22f80-5480-11ea-934f-674c3179420b.png)
